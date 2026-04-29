@@ -170,6 +170,12 @@ html {
   display: flex;
   justify-content: flex-end;
 }
+@media (max-width: 767px) {
+  .landing .text {
+    width: 100%;
+  }
+}
+
 .landing .text .content {
   max-width: 500px;
 }
